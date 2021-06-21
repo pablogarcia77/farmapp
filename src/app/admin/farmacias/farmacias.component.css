@@ -1,0 +1,20 @@
+.mt-100{
+    margin-top: 100px
+}
+
+table {
+    width: 100%;
+    background-color: white;
+}
+mat-icon:hover{
+    cursor: pointer;
+}
+.edit:hover{
+    color: #0d47a1 ;
+}
+.delete:hover{
+    color: #b71c1c;
+}
+.right{
+    float: right;
+}

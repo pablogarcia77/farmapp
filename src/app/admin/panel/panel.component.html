@@ -1,0 +1,12 @@
+<mat-drawer-container class="drawer-container">
+    <mat-drawer mode="side" opened class="side">
+        <img src="assets/images/logo.png" alt="FarmApp" class="responsive-img">
+        <button mat-button class="w-100" [routerLink]="['farmacias']">Farmacias</button>
+        <button mat-button class="w-100" [routerLink]="['turnos']">Turnos</button>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div class="container">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,13 @@
+.drawer-container{
+    height: 100vh;
+}
+.w-100{
+    width: 100%;
+}
+.responsive-img{
+    height: 50px;
+    margin: 20px auto;
+}
+.side{
+    width: 250px;
+}

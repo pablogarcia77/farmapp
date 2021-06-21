@@ -19,6 +19,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { LoaderComponent } from './components/loader/loader.component';
+import { PanelComponent } from './admin/panel/panel.component';
+import { LoginComponent } from './admin/login/login.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatMenuModule } from '@angular/material/menu';
+import { FarmaciasComponent } from './admin/farmacias/farmacias.component';
+import { TurnosComponent } from './admin/turnos/turnos.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 
 
@@ -26,7 +35,11 @@ import { LoaderComponent } from './components/loader/loader.component';
   declarations: [
     AppComponent,
     MapsComponent,
-    LoaderComponent
+    LoaderComponent,
+    PanelComponent,
+    LoginComponent,
+    FarmaciasComponent,
+    TurnosComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +54,12 @@ import { LoaderComponent } from './components/loader/loader.component';
     MatInputModule,
     MatCardModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSidenavModule,
+    MatMenuModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
