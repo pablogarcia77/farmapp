@@ -1,0 +1,12 @@
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(80,198,152);
+    background: linear-gradient(180deg, rgba(80,198,152,1) 0%, rgba(112,190,194,1) 100%);
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.responsive{
+    width: 100%;
+}
